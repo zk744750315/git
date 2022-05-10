@@ -2,6 +2,11 @@ qt中使用git说明：
 github网站中账户：zk744750315   308627watsx(密码)  tokens(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)  公钥(ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCoKvOhy0t2Fx6X8PTM8Pq++xXcH1UESHrNjqzJdZAld8xxSL9v0h8EXxoKAnlaHLcfq9oGSfVuIF22+3213/r+m8KzXWdVYn38JDDKbunBjtuNzLowN3VJIZPJw6aGa3CBe2dwrRWHS9G8KV4yA5tu2zC4TGQH5BD4liOmhx1qKNs+rg8PGOE2/tNurzel6eDmPI2OVsQMeYZlIBR/4uF3SRUE2tLARJ1MpejpQTr35Z5l+E2kdDi0k5lzb+zOunRjPR/q2pV+jo/Qrr2xcyTBe0l7wXtct0/+BpHgMdW5HYQhBcT4fqExsLX+ISoU6l8oBhNHUHFHpJzg6JM9hJz7 zhaokai@DESKTOP-6MS3ALK
 )相关信息已经配置好，QT中的相关配置也已经完成，可以直接在qt中使用git命令。
 步骤：1、在github官网上创建仓库，并记录https链接；
+      2、在本地创建仓库。如在项目的根目录下，鼠标右键点击：git bash here, 然后在弹出的git控制台输入：git init，仓本地仓库就开始创建了。
+      3、第一次上传项目：git remote set-url origin  https://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@github.com/nlp-greyfoss/typora_notes.git/  回车
+      然后执行：git push -u origin master
+
+      
   详细见：1、https://blog.csdn.net/hebbely/article/details/52495073
          2、https://blog.csdn.net/yjw123456/article/details/119696726
          
