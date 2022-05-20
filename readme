@@ -6,9 +6,12 @@ BR/4uF3SRUE2tLARJ1MpejpQTr35Z5l+E2kdDi0k5lzb+zOunRjPR/q2pV+jo/Qrr2xcyTBe0l7wXtct
 步骤：1、在github官网上创建仓库，并记录https链接；
       2、在本地创建仓库。如在项目的根目录下，鼠标右键点击：git bash here, 然后在弹出的git控制台输入：git init，仓本地仓库就开始创建了。
       3、将项目传到本地git仓库，选择添加所有文件git add * ，然后开始上传：git commit -m "my first commit"。
-      4、第一次上传项目到远端：git remote set-url origin  https://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@github.com/zk744750315/git.git/  ，其中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是自己
+      4、第一次上传项目到远端https方式：git remote set-url origin  https://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@github.com/zk744750315/git.git/  ，其中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是自己
       的tokens令牌，https://@github.com/zk744750315/git.git/是git仓库的远程remote  https链接，格式：git remote set-url origin https://【用户名】:【token】@github.com/用户名/项目名.git点击回车即可。
-      修改连接方式为ssh:git remote set-url origin git@github.com:zk744750315/git ;详见：https://blog.csdn.net/Castlehe/article/details/120482824
+      
+      推荐：第一次上传项目到远端ssh方式:git remote set-url origin git@github.com:zk744750315/git ;详见：https://blog.csdn.net/Castlehe/article/details/120482824
+      (若上述命令行提示：fatal: No such remote 'origin'，需要添加远程url：git remote add origin 远程url，例如git remote add origin git@github.com:zk744750315/DLL_creat_use.git，
+            )
       然后执行：git push -u origin master//遇到情况选择yes;
       
       
